@@ -1,0 +1,155 @@
+*{
+    background-color: rgb(37, 34, 34);
+    margin: 0;
+    color: white;
+}
+nav>ul,nav>ul>li{
+    display: block;
+	list-style: none;
+	margin: 0;
+	padding: 0;
+    background-color:rgb(58, 52, 52) ;
+}
+nav>ul{
+    display: flex;
+	padding: 2px;
+}
+nav>ul>li{
+    margin: 0 5px 0 5px;
+    float: left;
+    padding: 1% 10% 1% 10%;
+}
+a{
+    background-color: rgb(58, 52, 52);
+    text-decoration: none;
+    color: white;
+}
+li>a:hover{
+    color: orange;
+    box-shadow: 0 2px 0 orange;
+}
+main{
+    position: absolute;
+    margin-top: 20%;
+    margin-left: 40%;
+    margin-right: 40%;
+}
+.container{
+    margin-top: 3%;
+    display: flex;
+    width: 100%;
+    flex-wrap: wrap;
+} 
+.p1{
+    margin-left: 5px;
+    font-size: 250%;
+}
+.projects{
+    margin: 5px;
+    width: 30%;
+    height: 20vh;
+    text-align: center;
+}
+.projects>img{
+    width: 100%;
+    height: 18vh;
+}
+.projects>a{
+    margin-top: -1%;
+    height: 2vh;
+    width: 100%;
+    display: block;
+    text-decoration: none;
+    color: white;
+    background-color: orange;
+}
+.projects:hover{
+    padding: 5px;
+    box-shadow: 5px 5px 5px orange;
+}
+.home{
+    display: flex;
+    max-width: 1100px;
+    width: 100%;
+    margin-left: 20%;
+    margin-top: 15%;
+}
+.myName{
+    color: orange;
+    font-style: italic;
+    font-weight: bold;
+}
+.homeInfo>p{
+    margin-top: 10%;
+}
+.homeInfo>button{
+    margin-top: 10%;
+    border-radius: 12px;
+    width: 160px;
+    height: 40px;
+    background-color: orange;
+    color: azure;
+}
+.homeInfo{
+    margin-top: 10%;
+    text-align: center;
+    width: 60%;
+    word-wrap: break-word;
+}
+.homePhoto>img,.homeInfo{
+    height: 400px;
+}
+.homePhoto{
+    width: 40%;
+    text-align: center;
+}
+.info{
+    display: flex;
+    width: 400px;
+    padding: 10px;
+    border: 1px solid black;
+}
+.left,.right{
+    width: 50%;
+} 
+/* Contact site*/
+.contactContainer{
+    margin-top: 5%;
+}
+.contactMe{
+    text-align: center;
+}
+.contactMe>p{
+    font-weight: bolder;
+    font-size: 40px;
+}
+.contactOptions{
+    margin-top: 10%;
+    display: flex;
+    width: 100%;
+    margin-left: 25%;
+}
+.emailDiv,.phoneDiv{
+    width: 40%;
+}
+.sendEmail{
+    margin-top: 5%;
+    margin-left: 40%;
+    font-size: 30px;
+}
+.firstForm,.secondForm{
+    display: flex;
+    margin-left: 2%;
+}
+.formName,.formSurname,.formSubject,.formEmail{
+    width: 40%;
+    margin-top: 5%;
+}
+.formSurname,.formEmail{
+    margin-left: 5%;
+}
+.formMessage{
+    margin-left: 2%;
+    margin-top: 5%;
+    width: 85%;
+}
