@@ -1,0 +1,46 @@
+body{
+    overflow: hidden;
+}
+.contactContainer{
+    margin-top: 5%;
+}
+.contactMe{
+    text-align: center;
+}
+.contactMe>p{
+    font-weight: bolder;
+    font-size: 40px;
+}
+.contactOptions{
+    margin-top: 10%;
+    display: flex;
+    width: 100%;
+    margin-left: 25%;
+}
+.emailDiv,.phoneDiv{
+    width: 40%;
+}
+.sendEmail{
+    margin-top: 5%;
+    margin-left: 40%;
+    font-size: 30px;
+}
+.firstForm,.secondForm{
+    display: flex;
+    margin-left: 2%;
+}
+.formName,.formSurname,.formSubject,.formEmail{
+    width: 40%;
+    margin-top: 5%;
+}
+.formSurname,.formEmail{
+    margin-left: 5%;
+}
+.formMessage{
+    margin-left: 2%;
+    margin-top: 5%;
+    width: 85%;
+}
+input{
+    box-shadow: 1px 1px 1px green;
+}
