@@ -11,20 +11,86 @@
         <ul>
             <li><a href="home.html">Home</a></li>
             <li><a href="project.html">Project</a></li>
-            <li><a href="about.html">About</a></li>
+            <li><a href="about.html">Skills</a></li>
             <li><a href="contact.html">Contact</a></li>
         </ul>
-        <!-- <hr> -->
+     
     </nav>
-    <article class="home">
-        <div class="homeInfo">
-            <h3>Hello, my name is <span class="myName">Szymon Halek</span></h3>
-            <p>I'm ambitious and hard-working person. <br>I like this , what I do. this is my pashion and hobby. </p> 
-            <button class="aboutButton">More info</button>
-        </div>
-        <div class="homePhoto">
-            <img src="photos/myphoto.jpg" alt="photo">
+    <article class="home article">
+        <div class="container">
+            <div class="row">
+                <div class="homeInfo padd-15">
+                    <h3>Hello, my name is <span class="myName">Szymon Halek</span></h3>
+                    <p>I'm ambitious and hard-working person. <br>I like this , what I do. this is my pashion and hobby. </p> 
+                    <button class="aboutButton"><a href="#show">More info</a></button>
+                </div>
+                <div class="homePhoto padd-15">
+                    <img src="photos/myphoto.jpg" alt="photo">
+                </div>
+            </div>
         </div>
     </article>
+    <section class="about section" id="show">
+        <div class="title ">
+            <h2>About Me</h2>
+        </div>
+        <div class="about-container">
+            <div class="innerRow">
+                <div class="about-content">
+                    <div class="innerRow">
+                        <div class="about-text">
+                            <h3>I'm Szymon Halek - <span>Web App Developer</span></h3>
+                            <p>
+                                I am a student of a programming technical school. He is interested in programming web applications. I like to set myself more difficult goals so that I feel satisfied when I achieve them.</p>
+                        </div>
+                    </div>
+                    <div class="innerRow">
+                        <div class="education">
+                            <h3>Education</h3>
+                            <div class="innerRow">
+                                 <div class="timeline-box">
+                                    <div class="timeline timeline-shadow">
+                                        <div class="timeline-event">
+                                            <h3 class="date">2021- now</h3>
+                                            <h4>student of a programming technical school</h4>
+                                            <p>I learn HTML, CSS, JS, Java, Python, C++. 
+                                                I create projects and write documentation</p>
+                                        </div>
+                                        <div class="timeline-event">
+                                            <h3 class="date">Now</h3>
+                                            <h4>Courses</h4>
+                                            <p>I learn from online courses. I learn JavaSCript, C# and React</p>
+                                        </div>
+                                        
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="experience padd-40">
+                            <h3>Experience</h3>                      
+                             <div class="innerRow">
+                                <div class="timeline-box">
+                                    <div class="timeline timeline-shadow ">
+                                        <div class="timeline-event">
+                                            <h3 class="date">March 2022</h3>
+                                            <h4>Motorola Science Cup</h4>
+                                            <p>
+                                                Participation in an IT competition organized by Motorola</p>
+                                        </div>
+                                        <div class="timeline-event">
+                                            <h3 class="date">November 2023</h3>
+                                            <h4>Practise in Electris</h4>
+                                            <p>Participation in internships during which I create an encryption application with dynamic QCode</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div> 
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- <script src="/aboutScript.js"></script> -->
 </body>
 </html>

@@ -1,0 +1,99 @@
+*{
+    background-color: rgb(37, 34, 34);
+    margin: 0;
+    color: white;
+    overflow-y: auto;
+    overflow-x: hidden;
+}
+nav>ul,nav>ul>li{
+    display: block;
+	list-style: none;
+	margin: 0;
+	padding: 0;
+    background-color:rgb(58, 52, 52) ;
+}
+nav>ul{
+    display: flex;
+	padding: 2px;
+}
+nav>ul>li{
+    margin: 0 5px 0 5px;
+    float: left;
+    padding: 1% 10% 1% 10%;
+}
+a{
+    background-color: rgb(58, 52, 52);
+    text-decoration: none;
+    color: white;
+}
+li>a:hover{
+    color: orange;
+    transition:color 0.5s;
+    box-shadow: 0 2px 0 orange;
+    transition: box-shadow 0.5s;
+}
+/* main{
+    position: absolute;
+    margin-top: 20%;
+    margin-left: 40%;
+    margin-right: 40%;
+} */
+.contactContainer{
+    margin-top: 5%;
+}
+.contactMe{
+    text-align: center;
+}
+.contactMe>p{
+    font-weight: bolder;
+    font-size: 40px;
+}
+.contactOptions{
+    margin-top: 2%;
+    display: flex;
+    width: 100%;
+    margin-left: 25%;
+}
+.emailDiv,.phoneDiv{
+    width: 40%;
+}
+.sendEmail{
+    margin-top: 5%;
+    margin-left: 40%;
+    font-size: 30px;
+}
+.firstForm,.secondForm{
+    display: flex;
+    margin-left: 2%;
+}
+.formName,.formSurname,.formSubject,.formEmail{
+    width: 40%;
+    margin-top: 5%;
+}
+.formSurname,.formEmail{
+    margin-left: 5%;
+}
+.formMessage{
+    margin-left: 2%;
+    margin-top: 5%;
+    width: 85%;
+}
+.secondForm>input,.firstForm>input{
+    background-color: white;
+    color: black;
+    padding: 10px;
+    border-radius: 15px;
+}
+textarea{
+    background-color: #fff;
+    color: black;
+    border-radius: 5px;
+    padding: 10px;
+}
+.submitBtn{
+    background-color: orange;
+    margin-top: 3%;
+    margin-left: 2%;
+    padding: 10px;
+    border-radius: 15px;
+}

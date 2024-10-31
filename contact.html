@@ -4,18 +4,16 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Portfolio</title>
-    <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="contact.css">
+    <link rel="stylesheet" href="contactStyle.css">
 </head>
 <body>
     <nav>
         <ul>
             <li><a href="home.html">Home</a></li>
             <li><a href="project.html">Project</a></li>
-            <li><a href="about.html">About</a></li>
+            <li><a href="about.html">Skills</a></li>
             <li><a href="contact.html">Contact</a></li>
         </ul>
-        <hr>
     </nav>
         <article class="contactContainer">
             <div class="contactMe">
@@ -37,17 +35,17 @@
             <form action="halekszkola432@gmail.com" method="post">
                 <div class="mainForm">
                     <div class="firstForm">
-                        <input type="text" name="name" class="formName">
-                        <input type="text" name="surname" class="formSurname">
+                        <input type="text" name="name" class="formName" placeholder="Name">
+                        <input type="text" name="surname" class="formSurname" placeholder="Surname">
                     </div>
                     <div class="secondForm">
-                        <input type="text" name="subject" class="formSubject">
-                        <input type="email" name="email" class="formEmail">
+                        <input type="text" name="subject" class="formSubject" placeholder="Subject">
+                        <input type="email" name="email" class="formEmail" placeholder="Email">
                     </div>
                 </div>
                 <textarea name="message" class="formMessage" placeholder="Message"></textarea>
-
-
+                <br>
+                <input type="submit" value="Send message" class="submitBtn">
             </form>
 
             
