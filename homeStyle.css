@@ -4,13 +4,13 @@
     color: white;
 }
 
-nav {
-    position: fixed; /* Ustaw nawigację jako fixed */
+/* nav {
+    position: fixed; 
     top: 0;
     left: 0;
     right: 0;
-    z-index: 10; /* Ustaw większy z-index, aby nawigacja była na wierzchu */
-}
+    z-index: 10; 
+} */
 
 nav > ul,
 nav > ul > li {
@@ -298,5 +298,10 @@ span{
     .about-container {
         width: 90%;
         margin-left: 1vw;
+    }
+}
+@media(max-width:500px){
+    .container{
+        margin-left: 5vw;
     }
 }

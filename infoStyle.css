@@ -183,3 +183,8 @@ h2{
         box-shadow: rgb(49, 35, 35);
     }
 }
+@media(max-width:485px){
+    .professional{
+        display: block;
+    }
+}

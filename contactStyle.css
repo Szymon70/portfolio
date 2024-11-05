@@ -32,12 +32,7 @@ li>a:hover{
     box-shadow: 0 2px 0 orange;
     transition: box-shadow 0.5s;
 }
-/* main{
-    position: absolute;
-    margin-top: 20%;
-    margin-left: 40%;
-    margin-right: 40%;
-} */
+
 .contactContainer{
     margin-top: 5%;
 }
@@ -96,4 +91,13 @@ textarea{
     margin-left: 2%;
     padding: 10px;
     border-radius: 15px;
+}
+@media(max-width:500px){
+    .contactOptions{
+        margin-left: 4%;
+        display: block;
+    }
+    .phoneDiv{
+        margin-top: 5%;
+    }
 }
